@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/person"/>
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="woohee1230"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+
+    <View
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey2"/>
+
+    <LinearLayout
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/userupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원 정보 수정"
+            android:textSize="15dp"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey2"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            android:textSize="15dp"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey2"/>
+
+    <LinearLayout
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/userout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원탈퇴"
+            android:textSize="15dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

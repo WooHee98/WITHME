@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:textColor="#444444"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지역별로 보기"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/area1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="서울"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="인천"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="대전"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/area4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="대구"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="광주"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="부산"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/area7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="울산"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="세종특별\n자치시"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="경기도"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/area10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="강원도"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="충청북도"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area12"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="충청남도"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/area13"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="경상북도"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area14"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="경상남도"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area15"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="전라북도"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="30dp"
+                android:paddingBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/area16"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="전라남도"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/area17"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/area_background"
+                    android:gravity="center"
+                    android:text="제주도"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

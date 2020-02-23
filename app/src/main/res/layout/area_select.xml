@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:id="@+id/closebutton"
+            android:layout_marginLeft="360dp"
+            android:background="@android:color/transparent"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/close"/>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:textColor="#444444"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지역 선택"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="서울"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="경기"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="인천"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="160dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="대구"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="부산"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="울산"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="충청도"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="전라도"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="경상도"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="440dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/area_background"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="제주도"
+                    android:gravity="center"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

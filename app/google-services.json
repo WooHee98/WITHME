@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620931265036",
+    "firebase_url": "https://with-me-eda51.firebaseio.com",
+    "project_id": "with-me-eda51",
+    "storage_bucket": "with-me-eda51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620931265036:android:42f056a96c2b91820f7429",
+        "android_client_info": {
+          "package_name": "com.example.swproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620931265036-1f04r52h0rl7d1fqifl21upsfjaaqdi3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swproject",
+            "certificate_hash": "7dc3f80e8f70fe8b6f6632760bc40e35ec4bb54e"
+          }
+        },
+        {
+          "client_id": "620931265036-qgcnsqvnu2dmnfru0m3k4qteoa0fpcu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ6MLyUfR-oIrrDcKFFhhnmLOOW7Bbh5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620931265036-qgcnsqvnu2dmnfru0m3k4qteoa0fpcu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
